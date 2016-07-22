@@ -36,7 +36,7 @@ colorbox.settings:
           type: string
           label: 'Style'
         activate:
-          type: integer
+          type: boolean
           label: 'Options'
         transition_type:
           type: string
@@ -85,7 +85,7 @@ colorbox.settings:
           label: 'Slideshow'
           mapping:
             slideshow:
-              type: integer
+              type: boolean
               label: 'Slideshow'
             auto:
               type: boolean
